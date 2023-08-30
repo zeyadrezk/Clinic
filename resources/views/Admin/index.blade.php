@@ -1,4 +1,4 @@
-@extends('Admin.inc.master')
+@extends('Admin.inc.master');
 
 @section('title')
         Admin | Group314

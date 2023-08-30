@@ -2,12 +2,12 @@
 
 @extends('Admin.inc.preload');
 
-@extends('Admin.inc.Navbar');
+@include('Admin.inc.Navbar');
 @extends('Admin.inc.sidebar');
 
+@include('Admin.inc.content');
 
 
 
- @extends('Admin.inc.content');
- @extends('Admin.inc.footer');
+@extends('Admin.inc.footer');
 
